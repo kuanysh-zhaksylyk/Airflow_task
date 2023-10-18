@@ -3,6 +3,8 @@
 ### We need to create a DAG to process data and load it into MongoDB.
 ### The DAG should consist of several tasks:
 ----------------------------------
+![The schema of architecture](/airflow_stack.drawio.png)
+
 ### Task 1: Sensor
 * Create a Sensor that will respond to the appearance of our data file in a folder.
 
@@ -33,7 +35,6 @@ The data set consists of .csv extension files in folder named "dataset".
 --------
 ## Technologies:
 In this task, we need to deploy and configure a working environment with all the necessary tools:
-![The schema of architecture](/airflow_stack.drawio.png)
 
 1. Airflow;
 
